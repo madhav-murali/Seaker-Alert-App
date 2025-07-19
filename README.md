@@ -5,7 +5,7 @@ The entire application is containerized, allowing for a simple, one-command setu
 
 The current version is setup to monitor from the local device , but promethues node-exporter can be installed via ssh in any supported iot devices to access their data.
 
-Local Setup Instructions (2 Minutes)
+##Local Setup Instructions (2 Minutes)
 To run this project on your local machine, please follow these steps.
 
 Prerequisites
@@ -22,7 +22,7 @@ Run the following single command from the Seaker-Alert-App directory. This will 
 
 docker-compose up -d
 
-Accessing and Using the Dashboard
+#Accessing and Using the Dashboard
 Open the Dashboard:
 Navigate to http://localhost:3000 in your web browser.
 
@@ -36,7 +36,7 @@ Password: admin
 View Metrics:
 The "System Monitoring" dashboard will be available on the home page. Click it to see live and historical data for your machine.
 
-How to Test the Alerting System
+#How to Test the Alerting System
 You can easily simulate and test an alert.
 
 Edit a Panel: On the dashboard, find the "CPU Usage" panel, click its title, and select Edit.
@@ -50,4 +50,4 @@ Set the Threshold to a low value, like 10. This means an alert will trigger if C
 Save and Observe: Click Save and then Apply. The panel on the dashboard will quickly turn red and show a "Firing" state, demonstrating that the alert mechanism is working.
 
 
-Thank you for taking the time to review my project.
+#Thank you for taking the time to review my project.
