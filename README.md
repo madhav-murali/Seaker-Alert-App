@@ -22,7 +22,7 @@ Clone the Repository:
 Start the Services:
 Run the following single command from the Seaker-Alert-App directory. This will download the necessary images and start the Grafana, Prometheus, and Node Exporter services.
 
-docker-compose up -d
+    docker-compose up -d
 
 ## Accessing and Using the Dashboard
 Open the Dashboard:
